@@ -13,6 +13,11 @@
 		343B6220211946160055C900 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 343B621F211946160055C900 /* main.m */; };
 		343B622A211946160055C900 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 343B6229211946160055C900 /* ________Tests.m */; };
 		343B6235211946160055C900 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 343B6234211946160055C900 /* ________UITests.m */; };
+		343B6244211946280055C900 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343B6243211946280055C900 /* ViewController.m */; };
+		343B624721194A540055C900 /* JSCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 343B624621194A540055C900 /* JSCAlertView.m */; };
+		343B6252211980880055C900 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 343B624A211980880055C900 /* ALView+PureLayout.m */; };
+		343B6253211980880055C900 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 343B624C211980880055C900 /* NSArray+PureLayout.m */; };
+		343B6254211980880055C900 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 343B624E211980880055C900 /* NSLayoutConstraint+PureLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,19 @@
 		343B6230211946160055C900 /* 自定义弹出提醒框UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义弹出提醒框UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		343B6234211946160055C900 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		343B6236211946160055C900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343B6242211946280055C900 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		343B6243211946280055C900 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		343B624521194A540055C900 /* JSCAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCAlertView.h; sourceTree = "<group>"; };
+		343B624621194A540055C900 /* JSCAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCAlertView.m; sourceTree = "<group>"; };
+		343B6249211980880055C900 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		343B624A211980880055C900 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		343B624B211980880055C900 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		343B624C211980880055C900 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		343B624D211980880055C900 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		343B624E211980880055C900 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		343B624F211980880055C900 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		343B6250211980880055C900 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		343B6251211980880055C900 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +114,17 @@
 		343B6215211946160055C900 /* 自定义弹出提醒框 */ = {
 			isa = PBXGroup;
 			children = (
+				343B6248211980880055C900 /* PureLayout */,
 				343B6216211946160055C900 /* AppDelegate.h */,
 				343B6217211946160055C900 /* AppDelegate.m */,
 				343B6219211946160055C900 /* Assets.xcassets */,
 				343B621B211946160055C900 /* LaunchScreen.storyboard */,
 				343B621E211946160055C900 /* Info.plist */,
 				343B621F211946160055C900 /* main.m */,
+				343B6242211946280055C900 /* ViewController.h */,
+				343B6243211946280055C900 /* ViewController.m */,
+				343B624521194A540055C900 /* JSCAlertView.h */,
+				343B624621194A540055C900 /* JSCAlertView.m */,
 			);
 			path = "自定义弹出提醒框";
 			sourceTree = "<group>";
@@ -122,6 +145,22 @@
 				343B6236211946160055C900 /* Info.plist */,
 			);
 			path = "自定义弹出提醒框UITests";
+			sourceTree = "<group>";
+		};
+		343B6248211980880055C900 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				343B6249211980880055C900 /* ALView+PureLayout.h */,
+				343B624A211980880055C900 /* ALView+PureLayout.m */,
+				343B624B211980880055C900 /* NSArray+PureLayout.h */,
+				343B624C211980880055C900 /* NSArray+PureLayout.m */,
+				343B624D211980880055C900 /* NSLayoutConstraint+PureLayout.h */,
+				343B624E211980880055C900 /* NSLayoutConstraint+PureLayout.m */,
+				343B624F211980880055C900 /* PureLayout+Internal.h */,
+				343B6250211980880055C900 /* PureLayout.h */,
+				343B6251211980880055C900 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343B6254211980880055C900 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				343B624721194A540055C900 /* JSCAlertView.m in Sources */,
+				343B6244211946280055C900 /* ViewController.m in Sources */,
 				343B6220211946160055C900 /* main.m in Sources */,
+				343B6252211980880055C900 /* ALView+PureLayout.m in Sources */,
+				343B6253211980880055C900 /* NSArray+PureLayout.m in Sources */,
 				343B6218211946160055C900 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
